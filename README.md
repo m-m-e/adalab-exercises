@@ -1,1 +1,3 @@
-# adalab-exercises
+# Adalab-exercises
+
+Exercises from Adalab course
