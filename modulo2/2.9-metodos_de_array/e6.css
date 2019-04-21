@@ -1,0 +1,36 @@
+.grape {
+    height: 30px;
+    width: 23px;
+    border-radius: 50%;
+    background: purple;
+    margin: 10px;
+}
+
+.grapes {
+    display: flex;
+}
+
+.message {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    /* animation-name: appear;
+    animation-duration: 5s;
+    animation-iteration-count: 1; */
+}
+/* @keyframes appear {
+    from {
+        top: -50%;
+    }
+    to {
+        top: 25%;
+    }
+} */
+
+.image {
+    height: 300px;
+}

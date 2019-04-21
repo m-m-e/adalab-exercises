@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+.board {
+    padding: 5px 0 0 10px;
+    background: black;
+    min-height: 100vh;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.select {
+    margin-left: 10px;
+    border-radius: 5%;
+}
+
+.blue {
+    color: lightskyblue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.pink {
+    color: pink;
+}
