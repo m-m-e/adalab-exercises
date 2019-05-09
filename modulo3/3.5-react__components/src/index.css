@@ -1,0 +1,35 @@
+/* #react-root {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  overflow-y: scroll;
+} */
+
+body {
+  margin:0;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 49vw;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.item-list{
+  list-style: none;
+  padding: 0;
+}
+
+.item-list li{
+  margin-top: 5px;
+}
