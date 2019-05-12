@@ -10,7 +10,8 @@ class App extends React.Component {
   }
 
   onChangeListener(event) {
-    if (event.target.value.includes('cebolla')) {
+    const userText = event.target.value; 
+    if (userText.toLowerCase().includes('cebolla')) {
       this.isHating = true;
       this.forceUpdate();
     } else {
