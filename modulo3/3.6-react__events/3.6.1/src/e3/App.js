@@ -8,7 +8,6 @@ class App extends React.Component {
     this.isHating = false;
     this.onChangeListener = this.onChangeListener.bind(this);
   }
-
   onChangeListener(event) {
     if (event.target.value.includes('cebolla')) {
       this.isHating = true;
@@ -20,6 +19,7 @@ class App extends React.Component {
   }
 
   render() {
+    
     return (
       <OnionHater isHating={this.isHating} actionToPerform={this.onChangeListener}/>
     );
