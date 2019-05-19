@@ -1,0 +1,34 @@
+body {
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main__title {
+  width: 100%;
+}
+
+.people__list {
+  width: 40%;
+}
+
+.filters {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.checkbox__label {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
