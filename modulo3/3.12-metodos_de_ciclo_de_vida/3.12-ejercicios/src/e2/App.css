@@ -1,0 +1,12 @@
+.dark {
+  background-color: blue;
+}
+
+.light {
+ background-color: aquamarine;
+}
+
+.app {
+  height: 100vh;
+}
+
